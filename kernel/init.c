@@ -1,4 +1,10 @@
 /*
+ * 【中文导读】init.c —— 内核启动初始化（B级导读）
+ * bg_thread_main 之前的系统准备：就绪主线程、起 IDLE、
+ * 调 static init 队列。理解 Zephyr 启动时序的入口。
+ */
+
+/*
  * Copyright (c) 2010-2014 Wind River Systems, Inc.
  *
  * SPDX-License-Identifier: Apache-2.0

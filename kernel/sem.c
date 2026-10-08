@@ -1,4 +1,9 @@
 /*
+ * 【中文导读】sem.c —— k_sem 信号量（B级导读）
+ * 计数信号量；Zephyr 里没有互斥量意义上的二值信号量 API（那是 k_mutex）。
+ */
+
+/*
  * Copyright (c) 2010-2016 Wind River Systems, Inc.
  *
  * SPDX-License-Identifier: Apache-2.0

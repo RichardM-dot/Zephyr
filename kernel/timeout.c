@@ -1,4 +1,10 @@
 /*
+ * 【中文导读】timeout.c —— 内核超时系统（B级导读）
+ * 所有 k_xx(k_timeout) 的背后：按到期时间组织的超时队列 + tick 推进。
+ * 理解 K_NO_WAIT/K_FOREVER/相对超时语义的实现。
+ */
+
+/*
  * Copyright (c) 2018 Intel Corporation
  *
  * SPDX-License-Identifier: Apache-2.0

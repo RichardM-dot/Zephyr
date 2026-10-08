@@ -1,4 +1,10 @@
 /*
+ * 【中文导读】thread.c —— 线程全生命周期管理（B级导读）
+ * z_setup_new_thread 创建、k_thread_start/suspend/abort/join、
+ * 栈对象与用户态线程降权（CONFIG_USERSPACE）。
+ */
+
+/*
  * Copyright (c) 2010-2014 Wind River Systems, Inc.
  *
  * SPDX-License-Identifier: Apache-2.0

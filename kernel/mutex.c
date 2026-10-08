@@ -1,4 +1,9 @@
 /*
+ * 【中文导读】mutex.c —— k_mutex 互斥量（B级导读）
+ * 带优先级继承（永久/限时两种提升策略）。
+ */
+
+/*
  * Copyright (c) 2016 Wind River Systems, Inc.
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
  *

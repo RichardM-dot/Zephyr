@@ -1,4 +1,9 @@
 /*
+ * 【中文导读】msg_q.c —— k_msgq 消息队列（B级导读）
+ * 定长消息环形队列，语义与 FreeRTOS queue 几乎一一对应，对照阅读。
+ */
+
+/*
  * Copyright (c) 2016 Wind River Systems, Inc.
  *
  * SPDX-License-Identifier: Apache-2.0

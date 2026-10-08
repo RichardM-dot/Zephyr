@@ -1,4 +1,10 @@
 /*
+ * 【中文导读】work.c —— 工作队列（Zephyr 特色，B级导读）
+ * k_work 把"下半部"处理推迟到系统工作线程；延迟/周期/可取消工作项。
+ * 中断里只该做 k_work_submit——现代中断处理范式。
+ */
+
+/*
  * Copyright (c) 2020 Nordic Semiconductor ASA
  *
  * SPDX-License-Identifier: Apache-2.0
